@@ -1,0 +1,21 @@
+seed,model,top1,top3
+0,Random,0.043,0.152
+0,Heuristic,0.375,0.718
+0,Logistic regression,0.608,0.836
+0,Neural network,0.663,0.858
+1,Random,0.047,0.134
+1,Heuristic,0.391,0.734
+1,Logistic regression,0.615,0.848
+1,Neural network,0.692,0.88
+2,Random,0.05,0.155
+2,Heuristic,0.388,0.724
+2,Logistic regression,0.621,0.859
+2,Neural network,0.678,0.89
+3,Random,0.06,0.169
+3,Heuristic,0.403,0.731
+3,Logistic regression,0.604,0.832
+3,Neural network,0.674,0.867
+4,Random,0.053,0.131
+4,Heuristic,0.37,0.707
+4,Logistic regression,0.597,0.821
+4,Neural network,0.656,0.857

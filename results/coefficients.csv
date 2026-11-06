@@ -1,0 +1,17 @@
+,coefficient
+cat__piece_type_5,-1.272194696224819
+cat__piece_type_6,-1.0798506190539177
+cat__piece_type_4,-0.6235007219026616
+num__to_attacked,-0.47567608412727347
+num__opp_replies,-0.45378573377476916
+num__n_legal,-0.40298492078967413
+cat__piece_type_3,-0.37159079937627404
+cat__piece_type_2,-0.3641767741378941
+cat__piece_type_1,-0.2070142520596607
+num__is_promotion,-0.08005242360276259
+num__from_attacked,0.15262030461592854
+num__material_balance,0.19248010597310156
+num__is_capture,0.24210201901180023
+num__captured_value,0.29410099570821324
+num__gives_mate,0.34853449946901754
+num__gives_check,0.6244845490939983
