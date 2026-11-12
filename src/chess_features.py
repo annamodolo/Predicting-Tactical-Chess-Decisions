@@ -95,9 +95,9 @@ def split_by_puzzle(cand, test_size=0.2, seed=42):
 
 def topk(d, score, ks=(1, 3), seed=42):
     """Share of puzzles where the correct move is ranked within the top k."""
-    rng = np.random.default_rng(seed)
     d = d.copy()
-    d["_s"] = np.asarray(score) + rng.random(len(d)) * 1e-6   # random tie-break
+    d["_s"] = np.asarray(score)
+    d = d.sample(frac=1, random_state=seed)   # shuffle rows: ties are broken at random
     d["_r"] = d.groupby("PuzzleId")["_s"].rank(ascending=False, method="first")
     good = d[d["label"] == 1]
     return {f"top{k}": (good["_r"] <= k).mean() for k in ks}
