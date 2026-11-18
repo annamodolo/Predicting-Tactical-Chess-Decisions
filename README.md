@@ -23,3 +23,10 @@ No resource beyond the standard workspace is needed.
 Lichess puzzle database (https://database.lichess.org/#puzzles),
 released under CC0. A 5,000-puzzle random sample is stored in `data/`.
 Cleaning steps are described in the paper (Section 5).
+
+## Approximate running time
+Approximate running time (MacBook [M1], [8] GB): the whole pipeline (notebooks
+02-04) runs in under one minute. Notebook 01 skips the download if
+`data/puzzles_sample.csv` is present; a download from scratch depends on the network
+and can take several minutes, and yields a different sample (the committed CSV is the
+one used in the paper). No resource beyond the standard workspace is needed.
