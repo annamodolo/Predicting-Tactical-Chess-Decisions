@@ -1,4 +1,4 @@
 ,top1,top3
-Random,0.051,0.142
-Checks/captures heuristic,0.36,0.727
-Logistic regression,0.541,0.82
+Random,0.051,0.125
+Checks/captures heuristic,0.376,0.728
+Logistic regression,0.543,0.818

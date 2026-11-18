@@ -1,7 +1,7 @@
 ,top1,top3
-Heuristic features only,0.41875,0.76125
-+ mate,0.48125,0.78375
-"+ opp_replies, attacked",0.5575,0.82375
-+ piece type,0.565,0.8325
-All original features,0.55375,0.8275
-+ new tactical features,0.60875,0.85625
+Heuristic features only,0.4275,0.75375
++ mate,0.49375,0.77625
+"+ opp_replies, attacked",0.565,0.8275
++ piece type,0.575,0.835
+All original features,0.56375,0.8275
++ new tactical features,0.60625,0.8575
